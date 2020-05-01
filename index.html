@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <h1>D<span style="font-size: 80%";>AND</span>A</h1>
-        <h3>CREATIVE CONTENTS</h3>
+        <div id="headerContent">
+            <h1>D<span style="font-size: 70%";>AND</span>A</h1>
+            <h5>CREATIVE CONTENT</h5>
+        </div>
     </header>
-    <table style="width:60%">
-        <tr>
-            <td>Dimitris Tsilifonis</td>
-            <td>Alexandros Tsilifonis</td>
-        </tr>
-        <tr>
-            <td> <a href="mailto:dimitris@danda.gr">dimitris@danda.gr</a> </td>
-            <td> <a href="mailto:alexandros@danda.gr">alexandros@danda.gr</a> </td>
-        </tr>
-        <tr>
-            <td><a href="https://www.tsili.info/">www.tsili.info</a></td>
-            <td><a href="https://www.atsilifonis.com/">www.atsilifonis.com</a> </td>
-        </tr>
-      </table>
+    <div class="wrapper">
+        <div class="bio" id="left">     
+            <p class="upcase"> Dimitris Tsilifonis </p>
+            <a href="mailto:dimitris@danda.gr">dimitris@danda.gr</a> <br>
+            <a href="https://www.tsili.info/">www.tsili.info</a>
+        </div>
+        <div class="divider"></div>
+        <div class="bio" id="right">
+            <p class="upcase"> Alexandros Tsilifonis </p>
+            <a href="mailto:alexandros@danda.gr">alexandros@danda.gr</a> <br>
+            <a href="https://www.atsilifonis.com/">www.atsilifonis.com</a> 
+        </div>
+    </div>
 </body>
 </html>
