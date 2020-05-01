@@ -1,8 +1,8 @@
 body {
     font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
     background-attachment: fixed;
-    background-image: url('images/carbon-fibre-v2.png'), 
-                      radial-gradient(circle at top center, rgb(46, 45, 45), black 85%);
+    background-image: url('images/carbon-fibre.png'), 
+                      radial-gradient(circle at top center, rgb(59, 59, 59), black 85%); 
 }
 
 header {
