@@ -1,3 +1,28 @@
 body{
-    background-color: cadetblue;
+    background-image: url('images/carbon-fibre-v2.png');
+    background-color: rgb(48, 53, 69); 
+    /* background-image: url('images/backg.png'); */
+}
+
+header{
+    margin: auto;
+    text-align: center;
+    color: ivory;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+table{
+    color: ivory;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    display: inline-block;
+    margin: auto;
+}
+
+td{
+    text-align: center;
+    display: inline-table;
+}
+
+a{
+    color: orange;
 }
